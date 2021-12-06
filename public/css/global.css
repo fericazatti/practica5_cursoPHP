@@ -1,0 +1,105 @@
+:root{
+
+
+--color1:white;
+--color2:;
+--color3:#0C1F68;
+--color4:#e6e5e5;
+--color5: #414141;
+--primary: #e6e5e5 !important;
+--light: #ffffff;
+--grey: #efefef;
+
+
+--fuente1:BauhausLT;
+--FuenteTitular:Bauhaus;
+--tamaño-fuente-1:2em;
+--tamaño-fuented4e6f1-2:1.4em;
+--tamaño-fuente-3:1em;
+font-weight: 300;
+}
+
+@font-face
+{
+	font-family: Bauhaus;
+  /*src:url("bauhaus/bauhaus-93.ttf"),url('bauhaus/BauhausItalic.ttf');*/
+  src:url("bauhaus/BauhausRegular.ttf"),url('bauhaus/BauhausItalic.ttf');
+	
+}
+
+
+@font-face
+{
+	font-family: Bauhaus2;
+  src:url("bauhaus/bauhaus-93.ttf"),url('bauhaus/BauhausItalic.ttf');
+	
+}
+@font-face
+{
+  font-family: BauhausLT;
+  src:url("bauhaus/BauhausLightCTT.TTF"),url('bauhaus/BauhausRegular.ttf');
+  
+}
+
+
+
+body
+{
+	margin: 0;
+	padding: 0;
+	font-family:var(--fuente1);
+	color: var(--color1);
+  background-color: var(--color3);
+  font-size: var(--tamaño-fuente-2);
+  position: relative;
+  height: 100vh;
+  
+}
+
+
+ul,ol,a,a:visited,hover
+{
+	text-decoration: none;
+	list-style: none;
+  color: #d1d1d0 !important ;
+  text-decoration: none;
+} 
+
+a{color:white;}
+
+input
+{
+	outline:none !important;
+    outline-width: 0 !important;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+
+}
+
+
+
+input[type="submit"],
+input[type="reset"],
+input[type="button"],
+button {
+  background: #d1d1d0 ;
+  border: 0;
+  color: inherit;
+  /* cursor: default; */
+  font: inherit;
+  line-height: normal;
+  overflow: visible;
+  padding: 0;
+  -webkit-user-select: none; /* for button */
+   -webkit-appearance: button; /* for input */
+     -moz-user-select: none;
+      -ms-user-select: none;
+}
+
+
+#sidebar-container {
+  min-height: 70vh; 
+}
+
+button:focus, select:focus,textarea:focus{ outline: none;}

@@ -1,0 +1,13 @@
+@import url("componetes/boton.css");
+@import url("componetes/texto.css");
+@import url("componetes/cajas.css");
+
+@import url("Estructuras/formularios.css");
+@import url("Estructuras/modal.css");
+@import url("Estructuras/contenedores.css");
+
+@import url("Plantillas/base.css");
+@import url("Plantillas/base_estilos-F.css");
+@import url("Plantillas/contenedores.css");
+
+@import url('../Framework/icons-main/font/bootstrap-icons.css');
